@@ -1,7 +1,7 @@
 describe '#display_rainbow' do
   it 'accepts one argument' do
     #here
-    
+
     allow(self).to receive(:puts)
 
     expect { display_rainbow(colors) }.to_not raise_error(NoMethodError)
