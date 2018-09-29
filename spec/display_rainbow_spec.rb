@@ -1,6 +1,6 @@
 describe '#display_rainbow' do
   it 'accepts one argument' do
-    #here
+    colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
 
     allow(self).to receive(:puts)
 
